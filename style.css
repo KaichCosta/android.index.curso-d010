@@ -55,6 +55,7 @@ header > p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.445);
 }
 
@@ -68,7 +69,7 @@ nav{
 
 nav > a{
     text-decoration: none;
-    color: white;
+    color: var(--cor1);
     padding: 10px;
     font-weight: bold;
 }
@@ -140,7 +141,19 @@ main img.pequena{
     max-width: 350PX;
     margin: auto;
 }
+aside > h3{
+    font: white;
+    background-color: var(--cor4);
+    margin: -10px -10px 0px -10px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+}
 
+aside > ul{
+    list-style-type: \2714\00A0;
+    list-style-position: inside;
+    columns: 2;
+}
 aside{
     background-color: var(--cor1);
     padding: 10px;
