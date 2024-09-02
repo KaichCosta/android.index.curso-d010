@@ -141,6 +141,13 @@ main img.pequena{
     max-width: 350PX;
     margin: auto;
 }
+
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20, 30px, -20px;
+    padding: 20px;
+}
+
 aside > h3{
     font: white;
     background-color: var(--cor4);
